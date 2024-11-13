@@ -1,4 +1,4 @@
-import Terser from 'terser';
+import * as Terser from 'terser';
 
 export const minifyCode = async (code) => {
   try {
